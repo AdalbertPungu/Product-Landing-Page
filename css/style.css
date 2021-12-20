@@ -238,3 +238,39 @@ footer > span {
       color: #444;
 } 
 
+@media (max-width: 500px) {
+      
+      .logo > img {
+        margin: 0 auto;
+      }
+    
+      header {
+        flex-wrap: wrap;
+      }
+      nav > ul {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      
+      nav {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+      }
+      
+      nav > ul {
+        flex-direction: column;
+      }
+    
+      nav li {
+        padding-bottom: 5px;
+      }
+    
+}
+
