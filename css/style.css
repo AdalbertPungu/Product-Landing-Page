@@ -274,3 +274,23 @@ footer > span {
     
 }
 
+@media (max-width: 650px) {
+    
+      header {
+        display: flex;
+        flex-direction: row;
+      }
+    
+      nav > ul > li {
+        padding: 0 10px;
+      }
+      
+      .logo > img {
+        margin: 0 auto;
+      }
+    
+      #newsletter {
+        margin-top: 120px;
+      }
+}
+    
